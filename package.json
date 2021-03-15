@@ -1,0 +1,32 @@
+{
+  "name": "gamedig-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to query gameservers via gamedig",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cetteup <me@cetteup.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gamedig": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cetteup/gamedig-lambda.git"
+  },
+  "keywords": [
+    "gamedig",
+    "lambda",
+    "aws",
+    "query"
+  ],
+  "bugs": {
+    "url": "https://github.com/cetteup/gamedig-lambda/issues"
+  },
+  "homepage": "https://github.com/cetteup/gamedig-lambda",
+  "devDependencies": {
+    "eslint": "^7.22.0"
+  }
+}
