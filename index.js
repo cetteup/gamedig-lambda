@@ -18,7 +18,7 @@ exports.lambdaHandler = async (event) => {
             host: event.queryStringParameters.host,
             port: event.queryStringParameters?.port,
             maxAttempts: 1,
-            socketTimeout: 500,
+            socketTimeout: Number(process.env.SOCKET_TIMEOUT ?? 500),
             givenPortOnly: true
         });
         
